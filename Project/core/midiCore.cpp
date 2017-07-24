@@ -1,4 +1,4 @@
-﻿/*
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -308,17 +308,6 @@ bool compare_header_string4(const MIDI_BYTE _str1[4], const MIDI_BYTE _str2[4])
         
     return _check;
 }
-
-int midiCore::getSyncType()
-{
-    return (int)m_type;
-};
-
-int midiCore::getTotalTickCount()
-{
-    return (int)m_tickcount;
-};
-
 
 bool midiCore::load(const char* _filePath)
 {

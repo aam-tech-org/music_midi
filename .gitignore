@@ -1,4 +1,4 @@
-!.gitignore
-!/Project
-!/Resources
-!/Classes
+﻿/cocos2d
+/proj.*
+.cocos-project.json
+CMakeLists.txt
