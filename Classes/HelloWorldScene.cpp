@@ -17,8 +17,7 @@ bool HelloWorld::init()
     {
         return false;
     }
-    std::thread t1(&HelloWorld::myThread, this);//创建一个分支线程，回调到myThread函数里
-    t1.join();
+
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
@@ -67,11 +66,6 @@ bool HelloWorld::init()
     return true;
 }
 
-void HelloWorld::myThread()
-{
-    CCLOG("in my thread");
-
-}
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
