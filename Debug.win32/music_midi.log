@@ -1,0 +1,5 @@
+﻿AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 D:\project\made\music_midi\proj.win32\Debug.win32\music_midi.lib 和对象 D:\project\made\music_midi\proj.win32\Debug.win32\music_midi.exp
+  music_midi.vcxproj -> D:\project\made\music_midi\proj.win32\Debug.win32\music_midi.exe
+  music_midi.vcxproj -> D:\project\made\music_midi\proj.win32\Debug.win32\music_midi.pdb (Full PDB)
+  复制了 0 个文件
